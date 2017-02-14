@@ -1,0 +1,157 @@
+body {
+		background: #f4f4f4;
+		margin: 0;
+		font-family: Arial;
+    font-size: 15px;
+}
+
+.link-title {
+	text-decoration: none;
+	font-size: 24px;
+	color: #444444
+}
+
+.container {
+	width: 780px;
+	margin: 0 auto;
+	background: #ffffff;
+	box-shadow: 0px 9px 13px 5px;
+}
+
+.header {
+	padding: 45px 0px 20px 40px;
+	/*
+	border: 2px solid black;
+	*/
+}
+
+#nav {
+    background-color: #222;
+}
+#nav_wrapper {
+    width: 960px;
+    margin: 0 auto;
+    text-align: left;
+}
+#nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    min-width: 200px;
+}
+#nav ul li {
+    display: inline-block;
+}
+#nav ul li:hover {
+    background-color: #333;
+}
+#nav ul li a, visited {
+    color: #CCC;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+}
+#nav ul li:hover ul {
+    display: block;
+}
+#nav ul ul {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    border: 5px solid #222;
+    border-top: 0;
+    margin-left: -5px;
+}
+#nav ul ul li {
+    display: block;
+}
+#nav ul ul li a:hover {
+    color: #699;
+}
+
+.menu {
+	background: #3b7687;
+	padding: 6px 0px 6px 40px;
+}
+
+/* below target the <a> tag link of the menu class only */
+.menu a {
+	color: #c5d6db;
+	/* below remove default underline from hyperlink */
+	text-decoration: none;
+	font-size: 14px;
+	font-family: "Arial Narrow", "Myriad Pro";
+}
+
+/* below activate menu <a> tag link hover function */
+.menu a:hover {
+	color: #ecf2f3;
+}
+
+aside {
+	float: left;
+	width: 120px;
+	padding: 30px 0px 0px 40px;
+	border-color: black;
+}
+
+h1 {
+	margin: 0px;
+	color: black; /* #869843; */
+	font-size: 24px;
+	font-family: "Arial Narrow", "Myriad Pro";
+	font-weight: normal;
+}
+
+h2 {
+	color: #3b7687;
+	font-size: 15px;
+	margin: 20px 0px 5px 0px;
+}
+
+#home-page .page-heading {
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+.main {
+	padding: 35px 40px 30px 40px;
+	color: #444444;
+	font-family: "Georgia";
+	font-size: 13px;
+	line-height: 18px;
+	text-align: justify;
+}
+
+.main a:hover {
+	color: #444444;
+}
+
+#home-image img{
+	display: block;
+	height: 100%;
+	margin: 0 auto;
+	padding-top: 10px;
+	text-align: center;
+}
+
+/* <footer> take place starting with the copy right line */
+footer {
+	padding: 6px 40px;
+	background: #d6d6d6;
+	font-family: "Lucida Sans Unicode";
+	color: #444444;
+	font-size: 11px;
+	text-decoration: none;
+}
+
+footer a {
+	text-decoration: none;
+	color: #262626;
+}
+
+.separator {
+	color: #ffffff;
+	font-size: 11px;
+}
